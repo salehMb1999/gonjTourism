@@ -10,7 +10,7 @@ export default function About() {
         heroImg="./images/Hero4.jpg"
         title="درباره ما "
         text=""
-        heroHeight="h-3/4"
+        heroHeight="75vh"
         btnOne=""
         btnTwo=""
       />

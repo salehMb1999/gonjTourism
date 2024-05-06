@@ -10,7 +10,7 @@ export default function Contact() {
         heroImg="./images/Hero3.jpg"
         title="تماس با ما "
         text=""
-        heroHeight="h-3/4"
+        heroHeight="75vh"
         btnOne=""
         btnTwo=""
       />

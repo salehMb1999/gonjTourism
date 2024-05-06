@@ -27,7 +27,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="container mx-auto px-3">
+    <div className="container fixed left-1/2 z-50 mx-auto -translate-x-1/2 px-3">
       <nav className="relative mt-5 flex items-center justify-between rounded-xl bg-white px-8 py-2 font-iranYekanBold shadow-md shadow-gray-200">
         <div className="flex items-center justify-center gap-3">
           <div className="w-14">

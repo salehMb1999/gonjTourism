@@ -6,14 +6,14 @@ export default function Service() {
     <>
       <Navbar />
 
-<Hero
-  heroImg="./images/Hero2.jpg"
-  title="خدمات ما "
-  text=""
-  heroHeight="h-3/4"
-  btnOne=""
-  btnTwo=""
-/>
+      <Hero
+        heroImg="./images/Hero2.jpg"
+        title="خدمات ما "
+        text=""
+        heroHeight="75vh"
+        btnOne=""
+        btnTwo=""
+      />
     </>
   );
 }

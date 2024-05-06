@@ -1,3 +1,4 @@
+import Destination from "../components/Destination/Destination";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Nav/Navbar";
 
@@ -10,10 +11,11 @@ export default function Home() {
         heroImg="./images/Hero1.jpg"
         title="گروه گردشگری گُنج "
         text="مجری تورهای طبیعتگردی و ماجراجویانه در استان گیلان "
-        heroHeight="h-screen"
+        heroHeight="100vh"
         btnOne=" دانلود کاتالوگ"
         btnTwo="قوانین و مقررات"
       />
+      <Destination />
     </>
   );
 }

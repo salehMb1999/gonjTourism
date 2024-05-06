@@ -4,8 +4,9 @@ export default function Hero(props) {
     <div
       style={{
         backgroundImage: `linear-gradient(to right bottom,rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url(${props.heroImg})`,
+        height: `${props.heroHeight}`,
       }}
-      className={`absolute left-0 right-0 top-0 -z-10 ${props.heroHeight}  !bg-cover bg-fixed !bg-top !bg-no-repeat font-iranYekanRegular`}
+      className={` w-full !bg-cover bg-fixed !bg-top !bg-no-repeat font-iranYekanRegular`}
     >
       <div className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col items-center text-center text-white">
         <h1 className="mb-10 font-iranYekanBold text-2xl font-bold md:text-5xl">
