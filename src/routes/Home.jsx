@@ -1,6 +1,7 @@
 import Destination from "../components/Destination/Destination";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Nav/Navbar";
+import RecentTrips from "../components/RecentTrips/RecentTrips";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         btnTwo="قوانین و مقررات"
       />
       <Destination />
+      <RecentTrips />
     </>
   );
 }
