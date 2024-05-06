@@ -10,6 +10,9 @@ export default function Home() {
         heroImg="./images/Hero1.jpg"
         title="گروه گردشگری گُنج "
         text="مجری تورهای طبیعتگردی و ماجراجویانه در استان گیلان "
+        heroHeight="h-screen"
+        btnOne=" دانلود کاتالوگ"
+        btnTwo="قوانین و مقررات"
       />
     </>
   );

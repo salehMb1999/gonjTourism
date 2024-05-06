@@ -1,3 +1,4 @@
+import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Nav/Navbar";
 
 export default function About() {
@@ -5,7 +6,14 @@ export default function About() {
     <>
       <Navbar />
 
-      <div>About</div>
+      <Hero
+        heroImg="./images/Hero4.jpg"
+        title="درباره ما "
+        text=""
+        heroHeight="h-3/4"
+        btnOne=""
+        btnTwo=""
+      />
     </>
   );
 }
