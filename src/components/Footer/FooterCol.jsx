@@ -9,7 +9,7 @@ export default function FooterCol(props) {
           <li className="text-lg">
             <a
               className="duration-200 ease-in-out hover:text-[#01959a]"
-              href="#"
+              href="/"
             >
               {props.text1}
             </a>
@@ -17,7 +17,7 @@ export default function FooterCol(props) {
           <li className="text-lg">
             <a
               className="duration-200 ease-in-out hover:text-[#01959a]"
-              href="#"
+              href="/"
             >
               {props.text2}
             </a>
@@ -25,7 +25,7 @@ export default function FooterCol(props) {
           <li className="text-lg">
             <a
               className="duration-200 ease-in-out hover:text-[#01959a]"
-              href="#"
+              href="/"
             >
               {props.text3}
             </a>
