@@ -16,7 +16,7 @@ export default function Destination() {
             <div className="w-full overflow-hidden rounded-lg lg:w-80">
               <img
                 className="w-full duration-200 ease-in-out hover:scale-150"
-                src="./images/dest.jpg"
+                src="./images/destC.jpg"
                 alt="dest"
               />
             </div>
